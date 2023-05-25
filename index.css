@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0;
+}
+
+.header-site {
+    display: flex;
+    justify-content: space-between;
+    background-color: #80AF8E;
+    width: 100vw;
+    min-height: 50px;
+}
+.imagem{
+    width: 100%;
+    height: 416px;
+}
