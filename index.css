@@ -39,6 +39,38 @@
     text-decoration: none;
 }
 
+#home {
+    background-color: #B2D2A4;
+}
+
+#agro {
+    background-color: #B2D2A4;
+}
+
+#cultivo {
+    background-color: #B2D2A4;
+}
+
+#ia {
+    background-color: #B2D2A4;
+}
+
+.conteudo-1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4%;
+}
+
+.texto {
+ width: 50%;
+}
+
+.imagem-1 img{
+    height: 250px;
+    width: 500px;
+}
+
 .rodape {
     display: flex;
     justify-content: center;
