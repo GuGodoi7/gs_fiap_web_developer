@@ -4,18 +4,50 @@
     box-sizing: border-box;
 }
 
-header {
-    padding: 0;
-}
-
 .header-site {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #80AF8E;
     width: 100vw;
     min-height: 50px;
 }
-.imagem{
+
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.links li {
+    padding: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.links li:hover {
+    background-color: #B2D2A4;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80AF8E;
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    height: 416px;
+    height: 2.5rem;
+    color: white;
+}
+
+.rodape p {
+    margin-right: 30px;
 }
