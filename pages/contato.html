@@ -32,51 +32,50 @@
           </div>
     </header>
     <main>
-        <fieldset>
-        <div class="agru">
-            <form action="">
-                <br>
-                    <div>
-                        <input type="Nome">
-                        <label for="nome"> Nome </label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="Sobrenome" >
-                        <label for="sobrenome">Sobrenome</label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="email">
-                        <label for="Email"> Email</label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="tel" name="aaa" id="Tel">
-                        <label for="Tel"> Telefone</label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="cdd" name="cidade" id="cdd">
-                        <label for="cdd"> Cidade</label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="text">
-                        <label for="Estado"> Estado </label>
-                    </div>
-                    <br>
-                    <div>
-                        <input type="text">
-                        <label for="Profissao"> Profissão </label>
-                    </div>
-                <br>
-                <input type="submit" name="submit">
-                <input type="reset" volue="Limpar">
-            </form>
-        </div>
+      <form class="formulario">
+        <fieldset class="grupo">
+          <div class="campo">
+            <label for="nome"><strong>Nome</strong></label>
+            <input type="text" name="nome" id="nome" required>
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+          </div>
+          <br>
+          <div class="campo">
+            <label for="profissão">Profissão</label>
+            <input type="text" name="profissão" id="prof">
+            <label for="idade">Idade</label>
+            <input type="text" name="idade" id="idade">
+          </div>
+          <br>
+          <div class="campo">
+            <label for="telefone">Telefone</label>
+            <input type="text" name="telefone"> 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+          </div>
+          <br>
+          <div class="campo">
+            <label for="cdd">Cidade</label>
+            <input type="text" name="cdd" id="cdd">
+            <label for="estado">Estado</label>
+            <input type="text" name="estado" id="estado">
+          </div>
+          <br>
+          <div class="campo">
+            <label for="msg">Mensagem</label>
+            <textarea name="msg" id="msg" cols="30" rows="5"></textarea>
+          </div class="campo">
+            <br>
+          <div class="botao">
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+          </div>
         </fieldset>
+      </form>
     </main>
+    
+   
     <footer class="rodape">
         <p>Amorgan Mendes Lopes RM: 98552</p>
         <p>Gustavo Godoi da Silva RM: 99585</p>
