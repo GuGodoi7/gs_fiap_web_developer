@@ -89,3 +89,22 @@
     margin-right: 15px;
     margin-left: 15px;
 }
+fieldset{
+    border: 0;
+}
+.formulario{
+    margin-top: 2%;
+    margin-left: 1%;
+}
+input, textarea, button{
+    border-radius: 2px;
+}
+.campo input, .campo textarea{
+    margin-bottom: 0,2em;
+    display: block;
+}
+.campo input[type="text"], .campo input[type="email"], .campo textarea{
+    padding: 0.1em;
+    box-shadow: 3px 3px 3px rgb(0,0,0,0.2);
+    display: block;
+}
