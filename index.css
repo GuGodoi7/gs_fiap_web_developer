@@ -62,6 +62,12 @@
     margin-top: 4%;
 }
 
+.conteudo-2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
 .texto {
  width: 50%;
 }
@@ -71,13 +77,20 @@
     width: 500px;
 }
 
+.imagens-agro{
+    flex-direction: row;
+}
+
+.imagens-agro img{
+    width: 500px;
+    height: 391px;
+}
+
 .rodape {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #80AF8E;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     height: 2.5rem;
     color: white;
