@@ -36,30 +36,31 @@
         <fieldset class="grupo">
           <div class="campo">
             <label for="nome"><strong>Nome</strong></label>
-            <input type="text" name="nome" id="nome" required> 
+            <input type="text" name="nome" id="nome" required placeholder=" Ex: Gustavo"> 
             <label for="sobrenome"><strong>Sobrenome</strong></label>
-            <input type="text" name="sobrenome" id="sobrenome" required>
+            <input type="text" name="sobrenome" id="sobrenome" required placeholder="Ex: Godoi">
           </div>
           <br>
           <div class="campo">
             <label for="profissão">Profissão</label>
-            <input type="text" name="profissão" id="prof" required>
+            <input type="text" name="profissão" id="prof" required placeholder="Ex: Aluno">
             <label for="idade">Idade</label>
-            <input type="text" name="idade" id="idade" required>
+            <input type="text" name="idade" id="idade" required placeholder="Ex: 18">
           </div>
           <br>
           <div class="campo">
             <label for="telefone">Telefone</label>
-            <input type="text" name="telefone" required> 
+            <input type="tel" name="telefone" pattern="^\(\d{2}\) \{4,5} \d{4}$" required  
+            placeholder="Ex: (11) 99999-9999"> 
             <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+            <input type="email" name="email" id="email" required placeholder="Ex: megatch@gmail.com">
           </div>
           <br>
           <div class="campo">
             <label for="cdd">Cidade</label>
-            <input type="text" name="cdd" id="cdd" required>
+            <input type="text" name="cdd" id="cdd" required placeholder="Ex: São Paulo">
             <label for="estado">Estado</label>
-            <input type="text" name="estado" id="estado" required>
+            <input type="text" name="estado" id="estado" required placeholder="Ex: SP">
           </div>
           <br>
           <div class="campo">

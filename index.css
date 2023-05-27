@@ -100,11 +100,11 @@ fieldset{
 input, textarea, button{
     border-radius: 4px;
 }
-.campo input, .campo textarea{
+.campo input{
     margin-bottom: 0,2em;
-    display: block;
+    display: inline-block;
 }
-.campo input[type="text"], .campo input[type="email"]{
+.campo input[type="text"], .campo input[type="email"] .campo input[type="tel"]{
     padding: 0.1em;
     box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
     display: inline-block;
@@ -112,6 +112,8 @@ input, textarea, button{
 textarea{
     box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
     border-radius: 4px;
+    margin-bottom: 0,2em;
+    display: flex;
 }
 .campo input:focus{
     background-color: #B2D2A4;
