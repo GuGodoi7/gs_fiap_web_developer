@@ -1,128 +1,136 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .header-site {
-    display: flex;
-    justify-content: center;
-    background-color: #80AF8E;
-    width: 100vw;
-    min-height: 50px;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #80af8e;
+  width: 100vw;
+  min-height: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .links {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .links ul {
-    display: flex;
-    list-style-type: none;
+  display: flex;
+  list-style-type: none;
 }
 
 .links li {
-    padding: 30px;
-    transition: all .3s ease-in-out;
+  padding: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
-.links li:hover {
-    background-color: #B2D2A4;
+.links a:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid;
+  transition-duration: 0.1s;
 }
 
 .links a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
 }
 
 #marcacao {
-    background-color: #B2D2A4;
+  border-bottom: 3px solid;
 }
 
 .conteudo-1 {
-    display: flex;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 4%;
 }
 
 .conteudo-2 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  margin-top: 5%;
 }
 
 .texto {
- width: 50%;
+  width: 50%;
 }
 
-.imagem-1 img{
-    height: 250px;
-    width: 500px;
+.imagem-1 img {
+  height: 250px;
+  width: 500px;
 }
 
-.imagens-agro{
-    flex-direction: row;
+.imagens-agro {
+  flex-direction: row;
 }
 
-.imagens-agro img{
-    width: 500px;
-    height: 391px;
+.imagens-agro img {
+  width: 500px;
+  height: 391px;
 }
 
 .rodape {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #80AF8E;
-    width: 100%;
-    height: 2.5rem;
-    color: white;
-    font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #80af8e;
+  width: 100%;
+  height: 2.5rem;
+  color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 .rodape p {
-    margin-right: 15px;
-    margin-left: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
-fieldset{
-    border: 0;
+/*-----------------Pagina Contato-----------------*/
+
+fieldset {
+  border: 0;
 }
-.formulario{
-    margin-top: 2%;
-    margin-left: 1%;
+.formulario {
+  margin-top: 2%;
+  margin-left: 1%;
 }
-input, textarea, button{
-    border-radius: 4px;
+input,
+textarea,
+button {
+  border-radius: 4px;
 }
-.campo input{
-    margin-bottom: 0,2em;
-    display: inline-block;
+.campo input {
+  margin-bottom: 0, 2em;
+  display: inline-block;
 }
-.campo input[type="text"], .campo input[type="email"] .campo input[type="tel"]{
-    padding: 0.1em;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
-    display: inline-block;
+.campo input[type='text'],
+.campo input[type='email'] .campo input[type='tel'] {
+  padding: 0.1em;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  display: inline-block;
 }
-textarea{
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    margin-bottom: 0,2em;
-    display: flex;
+textarea {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  margin-bottom: 0, 2em;
+  display: flex;
 }
-.campo input:focus{
-    background-color: #B2D2A4;
+.campo input:focus {
+  background-color: #b2d2a4;
 }
 button {
-    font-size: 1.2em;
-    padding: 0.2em,0.6em;
-    color: black;
-    background-color: #d0f0c3;
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.2);
-    padding: 1em, 1em;
+  font-size: 1.2em;
+  padding: 0.2em, 0.6em;
+  color: black;
+  background-color: #d0f0c3;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  padding: 1em, 1em;
 }
