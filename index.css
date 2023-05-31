@@ -6,140 +6,179 @@
   box-sizing: border-box;
 }
 
-.header-site {
-  display: flex;
-  justify-content: center;
-  background-color: #60b579;
-  width: 100vw;
-  min-height: 50px;
-  font-family: 'Roboto', sans-serif;
-}
+@media (min-width: 1200px) {
+  /*-----------------Cabeçalho e Rodapé-----------------*/
 
-.links {
-  display: flex;
-  align-items: center;
-}
+  .header-site {
+    display: flex;
+    justify-content: center;
+    background-color: #60b579;
+    width: 100vw;
+    min-height: 50px;
+    font-family: 'Roboto', sans-serif;
+  }
 
-.links ul {
-  display: flex;
-  list-style-type: none;
-}
+  .links {
+    display: flex;
+    align-items: center;
+  }
 
-.links li {
-  padding: 30px;
-  transition: all 0.3s ease-in-out;
-}
+  .links ul {
+    display: flex;
+    list-style-type: none;
+  }
 
-.links a:hover {
-  padding-bottom: 5px;
-  border-bottom: 3px solid;
-  transition-duration: 0.1s;
-}
+  .links li {
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+  }
 
-.links a {
-  color: white;
-  text-decoration: none;
-  padding-bottom: 5px;
-}
+  .links a:hover {
+    padding-bottom: 5px;
+    border-bottom: 3px solid;
+    transition-duration: 0.1s;
+  }
 
-#marcacao {
-  border-bottom: 3px solid;
-}
+  .links a {
+    color: white;
+    text-decoration: none;
+    padding-bottom: 5px;
+  }
 
-.conteudo-1 {
-  display: flex;
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 4%;
-}
+  #marcacao {
+    border-bottom: 3px solid;
+  }
 
-.conteudo-2 {
-  font-family: 'Roboto', sans-serif;
-  text-align: center;
-  margin-top: 5%;
-}
+  .rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60b579;
+    width: 100%;
+    height: 2.5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
 
-.texto {
-  width: 50%;
-}
+  .rodape p {
+    margin-right: 15px;
+    margin-left: 15px;
+  }
 
-.imagem-1 img {
-  height: 250px;
-  width: 500px;
-}
+  /*-----------------Pagina Agricultura Sustentavel-----------------*/
 
-.imagens-agro {
-  flex-direction: row;
-}
+  .conteudo-1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 4%;
+  }
 
-.imagens-agro img {
-  width: 500px;
-  height: 391px;
-}
+  .conteudo-2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 5%;
+  }
 
-.rodape {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #60b579;
-  width: 100%;
-  height: 2.5rem;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
+  .texto h1 {
+    position: absolute;
+    width: 443px;
+    height: 168px;
+    left: 300px;
+    top: 250px;
 
-.rodape p {
-  margin-right: 15px;
-  margin-left: 15px;
-}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
 
-/*-----------------Pagina Contato-----------------*/
+    color: #d8fec1;
+  }
 
-fieldset {
-  border: 0;
-}
+  .texto p {
+    position: absolute;
+    width: 362px;
+    height: 174px;
+    left: 300px;
+    top: 430px;
 
-.formulario {
-  display: flex;
-  align-items: center;
-  margin: 10% 0 10% 0;
-  flex-direction: column;
-}
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
 
-input,
-textarea {
-  border-radius: 2px;
-}
+    color: #d8fec1;
+  }
 
-.campo label {
-  margin: 0 3px 0 10px;
-}
+  .imagem-1 img {
+    display: block;
+    width: 1920px;
+  }
 
-.campo input {
-  margin-bottom: 0, 2em;
-}
+  .imagens-agro {
+    flex-direction: row;
+  }
 
-.campo input[type='text'],
-.campo input[type='email'] .campo input[type='tel'] {
-  padding: 0.1em;
-}
+  .imagens-agro img {
+    width: 500px;
+    height: 391px;
+  }
 
-textarea {
-  border-radius: 2px;
-  margin-bottom: 0, 2em;
-  display: flex;
-}
+  /*-----------------Pagina Contato-----------------*/
 
-button {
-  font-size: 1.2em;
-  border-radius: 25px;
-  padding: 0.4em;
-  background-color: #d9d9d9;
-  border: none;
-  margin: 0 0 0 10px;
-}
+  fieldset {
+    border: 0;
+  }
 
-button:hover {
-  background-color: #bebebe;
-  cursor: pointer;
+  .formulario {
+    display: flex;
+    align-items: center;
+    margin: 10% 0 10% 0;
+    flex-direction: column;
+  }
+
+  input,
+  textarea {
+    border-radius: 2px;
+  }
+
+  .campo label {
+    margin: 0 3px 0 10px;
+  }
+
+  .campo input {
+    margin-bottom: 0, 2em;
+  }
+
+  .campo input[type='text'],
+  .campo input[type='email'] .campo input[type='tel'] {
+    padding: 0.1em;
+  }
+
+  textarea {
+    border-radius: 2px;
+    margin-bottom: 0, 2em;
+    display: flex;
+  }
+
+  button {
+    font-size: 1.2em;
+    border-radius: 25px;
+    padding: 0.4em;
+    background-color: #d9d9d9;
+    border: none;
+    margin: 0 0 0 10px;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: center;
+  }
+
+  button:hover {
+    background-color: #bebebe;
+    cursor: pointer;
+  }
 }
