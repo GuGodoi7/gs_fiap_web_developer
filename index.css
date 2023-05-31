@@ -14,7 +14,7 @@
     justify-content: center;
     background-color: #60b579;
     width: 100vw;
-    min-height: 50px;
+    height: 109px;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -55,7 +55,7 @@
     align-items: center;
     background-color: #60b579;
     width: 100%;
-    height: 2.5rem;
+    height: 109px;
     color: white;
     font-family: 'Roboto', sans-serif;
   }
@@ -70,22 +70,19 @@
   .conteudo-1 {
     display: flex;
     justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 4%;
   }
 
-  .conteudo-2 {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    margin-top: 5%;
+  .imagem-1 img {
+    display: block;
+    width: 1920px;
   }
 
   .texto h1 {
     position: absolute;
     width: 443px;
     height: 168px;
-    left: 300px;
-    top: 250px;
+    margin-left: 300px;
+    margin-top: 100px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -100,8 +97,8 @@
     position: absolute;
     width: 362px;
     height: 174px;
-    left: 300px;
-    top: 430px;
+    margin-left: 300px;
+    margin-top: 280px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -112,9 +109,61 @@
     color: #d8fec1;
   }
 
-  .imagem-1 img {
+  #subtitulo-da-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153312;
+    height: 148px;
+  }
+
+  #subtitulo-da-pagina p {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 32px;
+    color: #d8fec1;
+  }
+
+  #conteiner-compostagem {
+    display: flex;
+    justify-content: center;
+  }
+
+  #compostagem-img img {
     display: block;
     width: 1920px;
+  }
+
+  #texto-compostagem h2 {
+    position: absolute;
+    margin-left: 407.5px;
+    margin-top: 78px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+
+    /* identical to box height */
+    text-align: center;
+
+    color: #d8fec1;
+  }
+
+  #texto-compostagem p {
+    position: absolute;
+    width: 520px;
+    height: 168px;
+    margin-left: 468.5px;
+    margin-top: 250px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+
+    color: #d8fec1;
   }
 
   .imagens-agro {
