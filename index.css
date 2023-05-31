@@ -263,6 +263,17 @@
 
   /*-----------------Pagina Contato-----------------*/
 
+  #titulo-contato{
+    margin-left: 35%;
+  }
+  #subtitulo-contato {
+    font-family: sans-serif;
+    color: #380B61;
+    margin-left: 38%;
+  } 
+  body {
+    background-color: #e1f8d2;
+  }
   fieldset {
     border: 0;
   }
@@ -272,30 +283,33 @@
     align-items: center;
     margin: 10% 0 10% 0;
     flex-direction: column;
+    margin-top: 5em;
+  }
+  #email{
+    display: block;
   }
 
   input,
   textarea {
     border-radius: 2px;
+    margin-bottom: 1em;
   }
 
   .campo label {
     margin: 0 3px 0 10px;
   }
 
-  .campo input {
-    margin-bottom: 0, 2em;
-  }
-
   .campo input[type='text'],
   .campo input[type='email'] .campo input[type='tel'] {
     padding: 0.1em;
+    display: block;
+    margin-bottom: 1em;
   }
 
   textarea {
     border-radius: 2px;
     margin-bottom: 0, 2em;
-    display: flex;
+    display: flex
   }
 
   button {
@@ -306,10 +320,18 @@
     border: none;
     margin: 0 0 0 10px;
   }
-
+  
   .botao {
-    display: flex;
-    justify-content: center;
+      font-size: 1em;
+      border: 0;
+      margin-bottom: 1em;
+      color: #ffffff;
+      padding: 0.2em 0.6em;
+      position: absolute;
+      top: 103%;
+      left: 49%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%)
   }
 
   button:hover {
