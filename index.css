@@ -9,7 +9,7 @@
 .header-site {
   display: flex;
   justify-content: center;
-  background-color: #80af8e;
+  background-color: #60b579;
   width: 100vw;
   min-height: 50px;
   font-family: 'Roboto', sans-serif;
@@ -81,7 +81,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #80af8e;
+  background-color: #60b579;
   width: 100%;
   height: 2.5rem;
   color: white;
@@ -98,39 +98,48 @@
 fieldset {
   border: 0;
 }
+
 .formulario {
-  margin-top: 2%;
-  margin-left: 1%;
+  display: flex;
+  align-items: center;
+  margin: 10% 0 10% 0;
+  flex-direction: column;
 }
+
 input,
-textarea,
-button {
-  border-radius: 4px;
+textarea {
+  border-radius: 2px;
 }
+
+.campo label {
+  margin: 0 3px 0 10px;
+}
+
 .campo input {
   margin-bottom: 0, 2em;
-  display: inline-block;
 }
+
 .campo input[type='text'],
 .campo input[type='email'] .campo input[type='tel'] {
   padding: 0.1em;
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  display: inline-block;
 }
+
 textarea {
-  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
+  border-radius: 2px;
   margin-bottom: 0, 2em;
   display: flex;
 }
-.campo input:focus {
-  background-color: #b2d2a4;
-}
+
 button {
   font-size: 1.2em;
-  padding: 0.2em, 0.6em;
-  color: black;
-  background-color: #d0f0c3;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
-  padding: 1em, 1em;
+  border-radius: 25px;
+  padding: 0.4em;
+  background-color: #d9d9d9;
+  border: none;
+  margin: 0 0 0 10px;
+}
+
+button:hover {
+  background-color: #bebebe;
+  cursor: pointer;
 }
