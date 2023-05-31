@@ -105,7 +105,6 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 28px;
-
     color: #d8fec1;
   }
 
@@ -115,6 +114,7 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
+    width: 100%;
   }
 
   #subtitulo-da-pagina p {
@@ -123,6 +123,10 @@
     font-size: 32px;
     color: #d8fec1;
   }
+
+  /*
+  Parte da compostagem
+  */
 
   #conteiner-compostagem {
     display: flex;
@@ -134,45 +138,127 @@
     width: 1920px;
   }
 
-  #texto-compostagem h2 {
+  #texto-compostagem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     position: absolute;
-    margin-left: 407.5px;
-    margin-top: 78px;
+  }
 
+  #texto-compostagem h2 {
+    margin-top: 200px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 96px;
     line-height: 112px;
-
-    /* identical to box height */
     text-align: center;
-
     color: #d8fec1;
   }
 
   #texto-compostagem p {
-    position: absolute;
     width: 520px;
     height: 168px;
-    margin-left: 468.5px;
-    margin-top: 250px;
+    margin-top: 70px;
 
     font-family: 'Roboto';
     font-weight: 400;
     font-size: 32px;
-    line-height: 38px;
     text-align: center;
 
     color: #d8fec1;
   }
 
-  .imagens-agro {
-    flex-direction: row;
+  /*
+  Parte da irrigacao
+  */
+
+  #conteiner-irrigacao {
+    display: flex;
+    justify-content: center;
   }
 
-  .imagens-agro img {
-    width: 500px;
-    height: 391px;
+  #irrigacao-img img {
+    display: block;
+    width: 1920px;
+  }
+
+  #texto-irrigacao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  #texto-irrigacao h2 {
+    width: 858px;
+    height: 168px;
+    margin-top: 200px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #d8fec1;
+  }
+
+  #texto-irrigacao p {
+    width: 556px;
+    height: 232px;
+    margin-top: 59px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: #d8fec1;
+  }
+
+  /*
+  Parte da cogeracao
+  */
+
+  #conteiner-cogeracao {
+    display: flex;
+    justify-content: center;
+  }
+
+  #cogeracao-img img {
+    display: block;
+    width: 1920px;
+  }
+
+  #texto-cogeracao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+  }
+
+  #texto-cogeracao h2 {
+    margin-top: 200px;
+    width: 1000px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 112px;
+    text-align: center;
+    color: #d8fec1;
+  }
+
+  #texto-cogeracao p {
+    width: 556px;
+    height: 232px;
+    margin-top: 59px;
+
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+
+    color: #d8fec1;
   }
 
   /*-----------------Pagina Contato-----------------*/
