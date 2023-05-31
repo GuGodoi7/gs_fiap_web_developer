@@ -108,6 +108,10 @@
     color: #d8fec1;
   }
 
+  /*
+  Subtitulo
+  */
+
   #subtitulo-da-pagina {
     display: flex;
     justify-content: center;
@@ -259,6 +263,45 @@
     text-align: center;
 
     color: #d8fec1;
+  }
+
+  /*-----------------Pagina IA Generativa-----------------*/
+  #img-superior {
+    display: flex;
+    justify-content: center;
+    height: 660px;
+  }
+
+  #img-superior img {
+    display: block;
+    width: 1920px;
+  }
+
+  #texto-imagem-superior {
+    position: absolute;
+    color: #c1fafe;
+  }
+
+  #texto-imagem-superior h1 {
+    width: 317px;
+    margin-left: 420px;
+    margin-top: 132px;
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 48px;
+  }
+
+  #texto-imagem-superior p {
+    width: 400px;
+    height: 235px;
+    margin-left: 420px;
+    margin-top: 52px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
   }
 
   /*-----------------Pagina Contato-----------------*/
