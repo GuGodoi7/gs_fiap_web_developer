@@ -85,10 +85,8 @@
     margin-top: 100px;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 48px;
-    line-height: 56px;
 
     color: #d8fec1;
   }
@@ -101,10 +99,8 @@
     margin-top: 280px;
 
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 28px;
     color: #d8fec1;
   }
 
@@ -269,7 +265,6 @@
   #img-superior {
     display: flex;
     justify-content: center;
-    height: 660px;
   }
 
   #img-superior img {
@@ -304,16 +299,60 @@
     font-size: 24px;
   }
 
+  #img-icone-robo {
+    display: flex;
+    justify-content: center;
+  }
+
+  #img-icone-robo img {
+    margin-top: 330px;
+    position: absolute;
+  }
+
+  #texto-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #c1fafe;
+    font-family: 'Roboto';
+    text-align: center;
+  }
+
+  #texto-principal h2 {
+    position: absolute;
+    width: 864px;
+    margin-top: 639px;
+    font-size: 72px;
+  }
+
+  #texto-principal p {
+    position: absolute;
+    width: 735px;
+    margin-top: 842px;
+    font-size: 48px;
+  }
+
+  #img-fundo {
+    display: flex;
+    justify-content: center;
+    margin-top: -1px;
+  }
+
+  #img-fundo img {
+    height: 1518px;
+    width: 1920px;
+  }
+
   /*-----------------Pagina Contato-----------------*/
 
-  #titulo-contato{
+  #titulo-contato {
     margin-left: 35%;
   }
   #subtitulo-contato {
     font-family: sans-serif;
-    color: #380B61;
+    color: #380b61;
     margin-left: 38%;
-  } 
+  }
   body {
     background-color: #e1f8d2;
   }
@@ -328,7 +367,7 @@
     flex-direction: column;
     margin-top: 5em;
   }
-  #email{
+  #email {
     display: block;
   }
 
@@ -352,7 +391,7 @@
   textarea {
     border-radius: 2px;
     margin-bottom: 0, 2em;
-    display: flex
+    display: flex;
   }
 
   button {
@@ -363,18 +402,18 @@
     border: none;
     margin: 0 0 0 10px;
   }
-  
+
   .botao {
-      font-size: 1em;
-      border: 0;
-      margin-bottom: 1em;
-      color: #ffffff;
-      padding: 0.2em 0.6em;
-      position: absolute;
-      top: 103%;
-      left: 49%;
-      margin-right: -50%;
-      transform: translate(-50%, -50%)
+    font-size: 1em;
+    border: 0;
+    margin-bottom: 1em;
+    color: #ffffff;
+    padding: 0.2em 0.6em;
+    position: absolute;
+    top: 103%;
+    left: 49%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
 
   button:hover {
