@@ -9,7 +9,7 @@
 @media (min-width: 1200px) {
   /*-----------------Cabeçalho e Rodapé-----------------*/
 
-  .header-site {
+  .header-site-desktop {
     display: flex;
     justify-content: center;
     background-color: #60b579;
