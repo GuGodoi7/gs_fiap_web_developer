@@ -13,7 +13,7 @@
     display: flex;
     justify-content: center;
     background-color: #60b579;
-    width: 100vw;
+    width: 100%;
     height: 109px;
     font-family: 'Roboto', sans-serif;
   }
@@ -74,15 +74,15 @@
 
   .imagem-1 img {
     display: block;
-    width: 1920px;
+    width: 100%;
   }
 
   .texto h1 {
     position: absolute;
     width: 443px;
     height: 168px;
-    margin-left: 300px;
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
 
     font-family: 'Roboto';
     font-weight: 700;
@@ -95,8 +95,8 @@
     position: absolute;
     width: 362px;
     height: 174px;
-    margin-left: 300px;
-    margin-top: 280px;
+    margin-left: 100px;
+    margin-top: 230px;
 
     font-family: 'Roboto';
     font-weight: 500;
@@ -135,7 +135,7 @@
 
   #compostagem-img img {
     display: block;
-    width: 1920px;
+    width: 100%;
   }
 
   #texto-compostagem {
@@ -146,7 +146,7 @@
   }
 
   #texto-compostagem h2 {
-    margin-top: 200px;
+    margin-top: 20px;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 96px;
@@ -179,7 +179,7 @@
 
   #irrigacao-img img {
     display: block;
-    width: 1920px;
+    width: 100%;
   }
 
   #texto-irrigacao {
@@ -192,7 +192,7 @@
   #texto-irrigacao h2 {
     width: 858px;
     height: 168px;
-    margin-top: 200px;
+    margin-top: 20px;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -227,7 +227,7 @@
 
   #cogeracao-img img {
     display: block;
-    width: 1920px;
+    width: 100%;
   }
 
   #texto-cogeracao {
@@ -238,7 +238,7 @@
   }
 
   #texto-cogeracao h2 {
-    margin-top: 200px;
+    margin-top: 20px;
     width: 1000px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -269,7 +269,7 @@
 
   #img-superior img {
     display: block;
-    width: 1920px;
+    width: 100%;
   }
 
   #texto-imagem-superior {
@@ -340,7 +340,7 @@
 
   #img-fundo img {
     height: 1518px;
-    width: 1920px;
+    width: 100%;
   }
 
   /*-----------------Pagina Contato-----------------*/
