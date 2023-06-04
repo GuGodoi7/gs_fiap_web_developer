@@ -279,7 +279,7 @@
 
   #texto-imagem-superior h1 {
     width: 317px;
-    margin-left: 420px;
+    margin-left: 50%;
     margin-top: 132px;
 
     font-family: 'Roboto';
@@ -290,7 +290,7 @@
   #texto-imagem-superior p {
     width: 400px;
     height: 235px;
-    margin-left: 420px;
+    margin-left: 50%;
     margin-top: 52px;
 
     font-family: 'Roboto';
@@ -320,16 +320,16 @@
 
   #texto-principal h2 {
     position: absolute;
-    width: 864px;
+    width: 600px;
     margin-top: 639px;
-    font-size: 72px;
+    font-size: 48px;
   }
 
   #texto-principal p {
     position: absolute;
-    width: 735px;
+    width: 600px;
     margin-top: 842px;
-    font-size: 48px;
+    font-size: 40px;
   }
 
   #img-fundo {
@@ -341,6 +341,88 @@
   #img-fundo img {
     height: 1518px;
     width: 100%;
+  }
+
+  #terceira-parte {
+    background-color: #08111a;
+    height: 3250px;
+  }
+
+  #titulo-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    font-family: 'Roboto';
+  }
+
+  #titulo-parte h2 {
+    margin-top: 110px;
+    width: 652px;
+    font-size: 48px;
+    text-align: center;
+  }
+
+  #titulo-parte img {
+    margin-top: 250px;
+  }
+
+  #otimizacao-plantio h3 {
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 400px;
+  }
+
+  /*
+    texto esquerda
+  */
+
+  .texto-parte {
+    display: flex;
+    margin-top: 135px;
+    column-gap: 510px;
+  }
+
+  .organiza-ia {
+    display: flex;
+  }
+
+  .aste-azul-esquerda {
+    width: 26px;
+    height: 190px;
+    background-color: #167add;
+    margin-left: 258px;
+  }
+
+  .texto-esquerda {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 24px;
+    width: 385px;
+    margin-left: 24px;
+  }
+
+  /*
+    texto direita
+    */
+
+  .aste-azul-direita {
+    width: 26px;
+    height: 190px;
+    background-color: #167add;
+    margin-right: 172px;
+  }
+
+  .texto-direita {
+    color: #ffffff;
+    font-family: 'Roboto';
+    text-align: right;
+    font-size: 24px;
+    width: 338px;
+    margin-right: 60px;
   }
 
   /*-----------------Pagina Contato-----------------*/
