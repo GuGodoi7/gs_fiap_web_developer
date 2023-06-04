@@ -67,22 +67,24 @@
 
   /*-----------------Pagina Agricultura Sustentavel-----------------*/
 
-  .conteudo-1 {
+  .imagem-1 {
     display: flex;
-    justify-content: center;
+    max-width: 1920px;
   }
 
   .imagem-1 img {
-    display: block;
-    width: 100%;
+    flex-grow: 1;
+  }
+
+  .texto {
+    position: absolute;
   }
 
   .texto h1 {
-    position: absolute;
     width: 443px;
     height: 168px;
-    margin-left: 100px;
-    margin-top: 50px;
+    margin-left: 15dvw;
+    margin-top: 15dvh;
 
     font-family: 'Roboto';
     font-weight: 700;
@@ -92,11 +94,10 @@
   }
 
   .texto p {
-    position: absolute;
     width: 362px;
     height: 174px;
-    margin-left: 100px;
-    margin-top: 230px;
+    margin-left: 15dvw;
+    margin-top: 20px;
 
     font-family: 'Roboto';
     font-weight: 500;
@@ -133,9 +134,14 @@
     justify-content: center;
   }
 
-  #compostagem-img img {
-    display: block;
+  #compostagem-img {
+    display: flex;
+    max-width: 1920px;
     width: 100%;
+  }
+
+  #compostagem-img img {
+    flex-grow: 1;
   }
 
   #texto-compostagem {
@@ -146,7 +152,7 @@
   }
 
   #texto-compostagem h2 {
-    margin-top: 20px;
+    margin-top: 20dvh;
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 96px;
@@ -158,7 +164,7 @@
   #texto-compostagem p {
     width: 520px;
     height: 168px;
-    margin-top: 70px;
+    margin-top: 50px;
 
     font-family: 'Roboto';
     font-weight: 400;
@@ -177,9 +183,14 @@
     justify-content: center;
   }
 
-  #irrigacao-img img {
-    display: block;
+  #irrigacao-img {
+    display: flex;
+    max-width: 1920px;
     width: 100%;
+  }
+
+  #irrigacao-img img {
+    flex-grow: 1;
   }
 
   #texto-irrigacao {
@@ -192,7 +203,7 @@
   #texto-irrigacao h2 {
     width: 858px;
     height: 168px;
-    margin-top: 20px;
+    margin-top: 20dvh;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -225,9 +236,14 @@
     justify-content: center;
   }
 
-  #cogeracao-img img {
-    display: block;
+  #cogeracao-img {
+    display: flex;
+    max-width: 1920px;
     width: 100%;
+  }
+
+  #cogeracao-img img {
+    flex-grow: 1;
   }
 
   #texto-cogeracao {
@@ -238,7 +254,7 @@
   }
 
   #texto-cogeracao h2 {
-    margin-top: 20px;
+    margin-top: 20dvh;
     width: 1000px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -267,8 +283,9 @@
     justify-content: center;
   }
 
-  #img-superior img {
-    display: block;
+  #img-superior {
+    display: flex;
+    max-width: 1920px;
     width: 100%;
   }
 
@@ -279,7 +296,7 @@
 
   #texto-imagem-superior h1 {
     width: 317px;
-    margin-left: 50%;
+    margin-left: 20dvw;
     margin-top: 132px;
 
     font-family: 'Roboto';
@@ -290,7 +307,7 @@
   #texto-imagem-superior p {
     width: 400px;
     height: 235px;
-    margin-left: 50%;
+    margin-left: 20dvw;
     margin-top: 52px;
 
     font-family: 'Roboto';
@@ -299,36 +316,33 @@
     font-size: 24px;
   }
 
-  #img-icone-robo {
-    display: flex;
-    justify-content: center;
-  }
-
-  #img-icone-robo img {
-    margin-top: 330px;
-    position: absolute;
-  }
-
-  #texto-principal {
+  #conteiner-principal {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  #texto-principal {
     color: #c1fafe;
     font-family: 'Roboto';
     text-align: center;
+    position: absolute;
+  }
+
+  #texto-principal img {
+    margin-top: 30dvh;
   }
 
   #texto-principal h2 {
-    position: absolute;
-    width: 600px;
-    margin-top: 639px;
-    font-size: 48px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 8dvh;
+    font-size: 40px;
   }
 
   #texto-principal p {
-    position: absolute;
     width: 600px;
-    margin-top: 842px;
+    margin-top: 10dvh;
     font-size: 40px;
   }
 
@@ -336,12 +350,18 @@
     display: flex;
     justify-content: center;
     margin-top: -1px;
+    max-width: 1920px;
+    width: 100%;
   }
 
   #img-fundo img {
     height: 1518px;
-    width: 100%;
+    flex-grow: 1;
   }
+
+  /*
+  ultima parte
+  */
 
   #terceira-parte {
     background-color: #08111a;
@@ -383,7 +403,8 @@
   .texto-parte {
     display: flex;
     margin-top: 135px;
-    column-gap: 510px;
+    column-gap: 13dvw;
+    justify-content: center;
   }
 
   .organiza-ia {
@@ -394,7 +415,6 @@
     width: 26px;
     height: 190px;
     background-color: #167add;
-    margin-left: 258px;
   }
 
   .texto-esquerda {
@@ -413,7 +433,6 @@
     width: 26px;
     height: 190px;
     background-color: #167add;
-    margin-right: 172px;
   }
 
   .texto-direita {
