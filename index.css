@@ -26,6 +26,11 @@
     text-align: center;
   }
   /*-----------------Cabeçalho e Rodapé-----------------*/
+  .nome_grupo{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 30px;
+  }
 
   .header-site-desktop {
     display: flex;
