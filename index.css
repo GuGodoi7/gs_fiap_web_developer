@@ -25,6 +25,22 @@
     font-size: 30px;
     text-align: center;
   }
+
+  #conteudo_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153312;
+    height: 400px;
+    width: 100%;
+    background-color: #08111A;
+    color: white
+  
+    
+    
+
+
+  }
   /*-----------------Cabeçalho e Rodapé-----------------*/
   .nome_grupo{
     font-size: 40px;
