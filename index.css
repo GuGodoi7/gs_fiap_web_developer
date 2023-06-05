@@ -8,6 +8,23 @@
 }
 
 @media (min-width: 1280px) {
+
+  /*-----------------Page Home--------------------------*/
+  .Texto {
+    background-image: url(./assets/global.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1470px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
   /*-----------------Cabeçalho e Rodapé-----------------*/
 
   .header-site-desktop {
