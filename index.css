@@ -82,7 +82,7 @@
   .texto h1 {
     width: 443px;
     height: 168px;
-    margin-left: 15dvw;
+    margin-left: 15vw;
     margin-top: 15dvh;
 
     font-weight: 700;
@@ -94,7 +94,7 @@
   .texto p {
     width: 362px;
     height: 174px;
-    margin-left: 15dvw;
+    margin-left: 15vw;
     margin-top: 20px;
 
     font-weight: 500;
@@ -272,7 +272,7 @@
     background-color: #08111a;
   }
 
-  #texto-imagem-superior {
+  #conteiner-imagem-superior {
     color: #c1fafe;
     background-image: url(./assets/imagem-superior-ia-generativa.png);
     background-position: center;
@@ -286,9 +286,12 @@
     margin: 0 auto;
   }
 
+  #texto-imagem-superior {
+    margin-left: 20vw;
+  }
+
   #texto-imagem-superior h1 {
     width: 317px;
-    margin-left: 20vw;
     font-weight: 700;
     font-size: 48px;
   }
@@ -296,8 +299,7 @@
   #texto-imagem-superior p {
     width: 400px;
     height: 235px;
-    margin-left: 20dvw;
-    margin-top: 52px;
+    margin-top: 20px;
 
     font-style: normal;
     font-weight: 500;
@@ -362,7 +364,7 @@
   }
 
   #titulo-parte img {
-    margin-top: 250px;
+    margin-top: 20vh;
   }
 
   #otimizacao-plantio h3 {
@@ -370,7 +372,7 @@
     color: #ffffff;
     font-weight: 400;
     font-size: 40px;
-    margin-top: 400px;
+    margin-top: 30vh;
   }
 
   /*
@@ -380,7 +382,7 @@
   .texto-parte {
     display: flex;
     margin-top: 135px;
-    column-gap: 13dvw;
+    column-gap: 13vw;
     justify-content: center;
   }
 
@@ -472,8 +474,8 @@
     justify-content: center;
     margin-top: 50dvh;
     column-gap: 67px;
-    margin-left: 20dvw;
-    margin-right: 20dvw;
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
 
   .paragrafo {
@@ -634,7 +636,7 @@
     background-color: #08111a;
   }
 
-  #texto-imagem-superior {
+  #conteiner-imagem-superior {
     color: #c1fafe;
     background-image: url(./assets/imagem-superior-ia-generativa.png);
     background-position: center;
@@ -648,22 +650,24 @@
     margin: 0 auto;
   }
 
+  #texto-imagem-superior {
+    margin-left: 20vw;
+  }
+
   #texto-imagem-superior h1 {
     margin-top: 10vh;
     width: 317px;
-    margin-left: 20vw;
+
     font-weight: 700;
-    font-size: 40px;
+    font-size: 32px;
   }
 
   #texto-imagem-superior p {
     width: 250px;
     height: 235px;
-    margin-left: 20dvw;
-    margin-top: 2%;
 
-    font-style: normal;
-    font-weight: 500;
+    margin-top: 15px;
+
     font-size: 16px;
   }
 
@@ -743,7 +747,7 @@
   .texto-parte {
     display: flex;
     margin-top: 135px;
-    column-gap: 13dvw;
+    column-gap: 13vw;
     flex-direction: column;
     justify-content: center;
   }
@@ -831,8 +835,8 @@
     justify-content: center;
     margin-top: 50vh;
     column-gap: 67px;
-    margin-left: 20dvw;
-    margin-right: 20dvw;
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
 
   .paragrafo {
@@ -914,7 +918,7 @@
     background-repeat: no-repeat;
     background-size: 768px;
     max-width: 768px;
-    height: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -923,21 +927,19 @@
 
   #texto-imagem-superior h1 {
     margin-top: 10vh;
-    width: 317px;
-    margin-left: 20vw;
+    width: 200px;
+    margin-left: 100px;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 24px;
   }
 
   #texto-imagem-superior p {
-    width: 250px;
-    height: 235px;
-    margin-left: 20dvw;
-    margin-top: 2%;
+    width: 150px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 20px;
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
+    font-size: 8px;
   }
 
   /*
@@ -958,21 +960,21 @@
 
   #texto-principal img {
     margin-top: 30dvh;
-    width: 150px;
+    width: 130px;
   }
 
   #texto-principal h2 {
     width: 500px;
     margin: 0 auto;
     margin-top: 8dvh;
-    font-size: 40px;
+    font-size: 32px;
   }
 
   #texto-principal p {
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
-    margin-top: 10dvh;
-    font-size: 24px;
+    margin-top: 20dvh;
+    font-size: 16px;
   }
 
   /*
@@ -1016,7 +1018,7 @@
   .texto-parte {
     display: flex;
     margin-top: 135px;
-    column-gap: 13dvw;
+    column-gap: 13vw;
     flex-direction: column;
     justify-content: center;
   }
@@ -1105,8 +1107,8 @@
     justify-content: center;
     margin-top: 50vh;
     column-gap: 67px;
-    margin-left: 20dvw;
-    margin-right: 20dvw;
+    margin-left: 20vw;
+    margin-right: 20vw;
   }
 
   .paragrafo {
