@@ -8,9 +8,8 @@
 }
 
 @media (min-width: 1280px) {
-
   /*-----------------Cabeçalho e Rodapé-----------------*/
-  .nome_grupo{
+  .nome_grupo {
     font-size: 40px;
     font-weight: 700;
     padding: 30px;
@@ -22,7 +21,6 @@
     background-color: #60b579;
     width: 100%;
     height: 109px;
-    
   }
 
   .links {
@@ -76,15 +74,15 @@
     background-image: url(./assets/global.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1470px;
-    width: 100%;
+    background-size: 1920px;
+    width: 1920px;
     height: 480px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin: 0 auto;
     color: white;
-    font-size: 30px;
+    font-size: 32px;
     text-align: center;
   }
 
@@ -95,8 +93,8 @@
     background-color: #153312;
     height: 400px;
     width: 100%;
-    background-color: #08111A;
-    color: white
+    background-color: #08111a;
+    color: white;
   }
 
   /*-----------------Pagina Agricultura Sustentavel-----------------*/
@@ -164,7 +162,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../gs-fiap/assets/nova_compostagem.png);
+    background-image: url(../assets/nova_compostagem.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1920px;
@@ -189,7 +187,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../gs-fiap/assets/nova_irrigação.png);
+    background-image: url(../assets/nova_irrigação.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1920px;
@@ -216,7 +214,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(../gs-fiap/assets/nova_cogeração.png);
+    background-image: url(../assets/nova_cogeração.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1920px;
@@ -235,43 +233,50 @@
     margin: 0 auto;
   }
 
-  /*-----------------Pagina IA Generativa-----------------*/
-  #ia {
-    background-color: #08111a;
-  }
+  /*
+  Segundo subtitulo
+  */
 
-  #conteiner-imagem-superior {
-    color: #c1fafe;
-    background-image: url(./assets/imagem-superior-ia-generativa.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1920px;
-    max-width: 1920px;
-    height: 600px;
+  #segundo-subtitulo-da-pagina {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
+    align-items: center;
+    background-color: #60b579;
+    height: 148px;
+    width: 100%;
   }
 
-  #texto-imagem-superior {
-    margin-left: 20vw;
-  }
-
-  #texto-imagem-superior h1 {
-    width: 317px;
+  #segundo-subtitulo-da-pagina p {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 32px;
+    color: #153312;
   }
 
-  #texto-imagem-superior p {
-    width: 400px;
-    height: 235px;
-    margin-top: 20px;
+  /*
+  Parte final agro
+  */
 
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
+  #parte-final-agro {
+    background-color: #153312;
+    background-position: center;
+    background-size: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    height: 801px;
+  }
+
+  #parte-final-agro p {
+    color: #ffffff;
+    width: 610px;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  /*-----------------Pagina IA Generativa-----------------*/
+  #ia {
+    background-color: #167add;
   }
 
   /*
@@ -285,27 +290,30 @@
     background-position: center;
     background-size: 1920px;
     background-repeat: no-repeat;
-    height: 1200px;
+    height: fit-content;
     max-width: 1920px;
     margin: 0 auto;
   }
 
   #texto-principal img {
-    margin-top: 30dvh;
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 178px;
   }
 
   #texto-principal h2 {
     width: 500px;
     margin: 0 auto;
-    margin-top: 8dvh;
+    margin-top: 200px;
     font-size: 40px;
   }
 
   #texto-principal p {
-    width: 600px;
+    width: 500px;
     margin: 0 auto;
-    margin-top: 10dvh;
-    font-size: 40px;
+    margin-top: 150px;
+    font-size: 32px;
+    padding-bottom: 20vh;
   }
 
   /*
@@ -313,87 +321,45 @@
   */
 
   #terceira-parte {
-    background-color: #08111a;
-    height: 3250px;
+    background-color: #167add;
+    height: fit-content;
   }
 
   #titulo-parte {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #ffffff;
+    color: #08111a;
   }
 
   #titulo-parte h2 {
-    margin-top: 110px;
+    margin-top: 150px;
     width: 652px;
     font-size: 48px;
     text-align: center;
   }
 
   #titulo-parte img {
-    margin-top: 20vh;
+    margin-top: 200px;
   }
 
-  #otimizacao-plantio h3 {
+  #ia-agricultura {
+    color: #08111a;
+    margin: 0 auto;
+    margin-top: 430px;
+    width: 600px;
+    padding-bottom: 30vh;
+  }
+
+  #ia-agricultura p {
     text-align: center;
-    color: #ffffff;
-    font-weight: 400;
     font-size: 40px;
-    margin-top: 30vh;
-  }
-
-  /*
-    texto esquerda
-  */
-
-  .texto-parte {
-    display: flex;
-    margin-top: 135px;
-    column-gap: 13vw;
-    justify-content: center;
-  }
-
-  .organiza-ia {
-    display: flex;
-  }
-
-  .aste-azul-esquerda {
-    width: 26px;
-    height: 190px;
-    background-color: #167add;
-  }
-
-  .texto-esquerda {
-    color: #ffffff;
-    font-size: 24px;
-    width: 385px;
-    margin-left: 24px;
-  }
-
-  /*
-    texto direita
-    */
-
-  .aste-azul-direita {
-    width: 26px;
-    height: 190px;
-    background-color: #167add;
-  }
-
-  .texto-direita {
-    color: #ffffff;
-    text-align: right;
-    font-size: 24px;
-    width: 338px;
-    margin-right: 60px;
   }
 
   /*-----------------Pagina Cultivo-----------------*/
   #cultivo {
     background-color: #f5f5f5;
-    height: 1800px;
-    max-height: 400dvh;
+    height: fit-content;
   }
 
   #parte-superior-cultivo {
@@ -438,13 +404,13 @@
 
   .conteiner-paragrafo {
     display: flex;
-
     align-items: center;
     justify-content: center;
-    margin-top: 50dvh;
+    margin-top: 30vh;
     column-gap: 67px;
     margin-left: 20vw;
     margin-right: 20vw;
+    padding-bottom: 20vh;
   }
 
   .paragrafo {
@@ -462,7 +428,7 @@
   .paragrafo div {
     width: 26px;
     height: 190px;
-    background: #153312;
+    background: #8cb688;
   }
 
   /*-----------------Pagina Contato-----------------*/
@@ -789,7 +755,7 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
-    max-width: 1920px;
+    max-width: 1279px;
     margin: 0 auto;
   }
 
