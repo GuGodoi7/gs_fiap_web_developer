@@ -45,38 +45,36 @@
             </nav>
           </div>
     </header>
-    <div>
-      <h1 id="titulo-contato">Entre em contato conosco</h1>
-      <h3 id="subtitulo-contato">Complete suas informações </h3>
+    <div id="titulos">
+      <h1 "titulo-contato">Entre em contato conosco</h1>
+      <h3 "subtitulo-contato">Complete suas informações </h3>
     </div>
       <form class="formulario">
         <fieldset>
-            <div class="campo">
+          <div id="campos">
+          <section class="identificador">
+            <input type="text" name="sobrenome" id="sobrenome" required placeholder=" Sobrenome*">
+            <input type="text" name="empresa" id="empresa" placeholder=" Empresa">
+            <input type="email" name="email" id="email" required placeholder=" Email*">
+            <input type="text" name="estado" id="estado" required placeholder=" Estado*">
+          </section>
+          <section class="identificador">
               <input type="text" name="nome" id="nome" required placeholder=" Nome*"> 
-              <input type="text" nome="sobrenome" id="sobrenome" required placeholder=" Sobrenome*">
               <input type="text" name="idade" id="idade" required placeholder=" Idade*">
-            </div>
-            <div class="campo">
               <input type="text" name="profissão" id="prof" required placeholder=" Profissão*">
-              <input type="text" name="empresa" id="empresa" placeholder=" Empresa">
-            </div>
-            <div class="campo">
-              <input type="tel" name="telefone" pattern="^\(\d{2}\) \{4,5} \d{4}$"  
+              <input type="tel" name ="telefone" id="tel" pattern="^\(\d{2}\) \{4,5} \d{4}$"  
               placeholder=" Telefone"> 
-              <input type="email" name="email" id="email" required placeholder=" Email*">
-            </div>
-            <div class="campo">
               <input type="text" name="cdd" id="cdd" required placeholder=" Cidade*">
-              <input type="text" name="estado" id="estado" required placeholder=" Estado*">
-            </div>
             <div class="campo-mensagem">
               <textarea name="msg" id="msg" cols="50" rows="4" required placeholder=" Mensagem*"></textarea>
-            </div class="campo">
-            <div class="botao">
+            </div>
+            </section>
+         </div>
+            <div id="botao">
               <button type="submit">Enviar</button>
               <button type="reset">Limpar</button>
             </div>
-        </fieldset>
+        </fieldset>  
       </form>
     <br>
     <footer class="rodape">
@@ -89,3 +87,5 @@
     
 </body>
 </html>
+
+
