@@ -9,38 +9,6 @@
 
 @media (min-width: 1280px) {
 
-  /*-----------------Page Home--------------------------*/
-  .Texto {
-    background-image: url(./assets/global.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 1470px;
-    width: 100%;
-    height: 480px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 auto;
-    color: white;
-    font-size: 30px;
-    text-align: center;
-  }
-
-  #conteudo_home {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #153312;
-    height: 400px;
-    width: 100%;
-    background-color: #08111A;
-    color: white
-  
-    
-    
-
-
-  }
   /*-----------------Cabeçalho e Rodapé-----------------*/
   .nome_grupo{
     font-size: 40px;
@@ -54,6 +22,7 @@
     background-color: #60b579;
     width: 100%;
     height: 109px;
+    
   }
 
   .links {
@@ -102,6 +71,34 @@
     margin-left: 15px;
   }
 
+  /*-----------------Page Home--------------------------*/
+  .Texto {
+    background-image: url(./assets/global.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1470px;
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #conteudo_home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153312;
+    height: 400px;
+    width: 100%;
+    background-color: #08111A;
+    color: white
+  }
+
   /*-----------------Pagina Agricultura Sustentavel-----------------*/
 
   .imagem-1 {
@@ -121,7 +118,7 @@
     width: 443px;
     height: 168px;
     margin-left: 15vw;
-    margin-top: 15dvh;
+    margin-top: 10dvh;
 
     font-weight: 700;
     font-size: 48px;
@@ -163,46 +160,24 @@
   Parte da compostagem
   */
 
-  #conteiner-compostagem {
-    display: flex;
-    justify-content: center;
-  }
-
-  #compostagem-img {
-    display: flex;
-    max-width: 1920px;
-    width: 100%;
-  }
-
-  #compostagem-img img {
-    flex-grow: 1;
-  }
-
   #texto-compostagem {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    position: absolute;
+    background-image: url(../gs-fiap/assets/nova_compostagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
   }
 
   #texto-compostagem h2 {
-    margin-top: 20dvh;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 94px;
     line-height: 112px;
     text-align: center;
-    color: #d8fec1;
-  }
-
-  #texto-compostagem p {
-    width: 520px;
-    height: 168px;
-    margin-top: 50px;
-
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-
     color: #d8fec1;
   }
 
@@ -210,99 +185,54 @@
   Parte da irrigacao
   */
 
-  #conteiner-irrigacao {
-    display: flex;
-    justify-content: center;
-  }
-
-  #irrigacao-img {
-    display: flex;
-    max-width: 1920px;
-    width: 100%;
-  }
-
-  #irrigacao-img img {
-    flex-grow: 1;
-  }
-
   #texto-irrigacao {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    position: absolute;
+    background-image: url(../gs-fiap/assets/nova_irrigação.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
   }
 
   #texto-irrigacao h2 {
-    width: 858px;
-    height: 168px;
-    margin-top: 20dvh;
-
-    font-style: normal;
     font-weight: 700;
     font-size: 72px;
-    line-height: 84px;
+    width: 1200px;
+    line-height: 112px;
     text-align: center;
     color: #d8fec1;
-  }
-
-  #texto-irrigacao p {
-    width: 556px;
-    height: 232px;
-    margin-top: 59px;
-
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-
-    color: #d8fec1;
+    margin: 0 auto;
   }
 
   /*
   Parte da cogeracao
   */
 
-  #conteiner-cogeracao {
-    display: flex;
-    justify-content: center;
-  }
-
-  #cogeracao-img {
-    display: flex;
-    max-width: 1920px;
-    width: 100%;
-  }
-
-  #cogeracao-img img {
-    flex-grow: 1;
-  }
-
   #texto-cogeracao {
     display: flex;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    position: absolute;
+    background-image: url(../gs-fiap/assets/nova_cogeração.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
   }
 
   #texto-cogeracao h2 {
-    margin-top: 20dvh;
-    width: 1000px;
     font-weight: 700;
-    font-size: 96px;
+    font-size: 94px;
+    width: 1200px;
     line-height: 112px;
     text-align: center;
     color: #d8fec1;
-  }
-
-  #texto-cogeracao p {
-    width: 556px;
-    height: 232px;
-    margin-top: 59px;
-
-    font-weight: 400;
-    font-size: 32px;
-    text-align: center;
-
-    color: #d8fec1;
+    margin: 0 auto;
   }
 
   /*-----------------Pagina IA Generativa-----------------*/
@@ -462,7 +392,7 @@
   /*-----------------Pagina Cultivo-----------------*/
   #cultivo {
     background-color: #f5f5f5;
-    height: 400dvh;
+    height: 1800px;
     max-height: 400dvh;
   }
 
@@ -499,6 +429,7 @@
     height: 148px;
     max-width: 1920px;
     margin: 0 auto;
+    font-size: 30px;
   }
 
   /*
