@@ -1,49 +1,55 @@
-@media (min-width: 769px) and (max-width: 1279px) {
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+}
+
+@media (min-width: 1280px) {
   /*-----------------Cabeçalho e Rodapé-----------------*/
   .nome_grupo {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 700;
-    padding-right: 30px;
+    padding: 30px;
   }
 
   .header-site-desktop {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     background-color: #60b579;
     width: 100%;
     height: 109px;
-  }
-
-  .links {
-    display: flex;
-    align-items: center;
+    justify-content: space-around;
   }
 
   .links ul {
     display: flex;
-    column-gap: 30px;
-    list-style-type: none;
+    column-gap: 40px;
+    color: white;
   }
 
-  .links li {
-    transition: all 0.3s ease-in-out;
+  .links li,
+  a {
+    list-style-type: none;
+    text-decoration: none;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 16px;
   }
 
   .links a:hover {
-    padding-bottom: 5px;
-    border-bottom: 3px solid;
-    transition-duration: 0.1s;
-  }
-
-  .links a {
-    color: white;
-    text-decoration: none;
-    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    transition-duration: 0.09s;
+    border-radius: 2px;
   }
 
   #marcacao {
-    border-bottom: 3px solid;
+    padding-bottom: 5px;
+    border-bottom: 3px solid white;
+    border-radius: 2px;
   }
 
   .rodape {
@@ -69,11 +75,11 @@
 
   #texto {
     margin: 0 auto;
-    background-image: url(./assets/global.jpeg);
+    background-image: url(../assets/global.jpeg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1279px;
-    max-width: 1279px;
+    background-size: 1920px;
+    max-width: 1920px;
     height: 480px;
     display: flex;
     justify-content: center;
@@ -105,7 +111,7 @@
   }
 
   #icones-home img {
-    width: 130px;
+    width: 176px;
   }
 
   /*
@@ -123,45 +129,49 @@
   #conteudo_home h2 {
     margin-top: 100px;
     width: 588px;
-    font-size: 56px;
+    font-size: 72px;
     text-align: center;
   }
 
   #conteudo_home p {
     margin-top: 100px;
-    font-size: 24px;
+    font-size: 40px;
     text-align: center;
-    width: 550px;
+    width: 830px;
   }
 
   /*-----------------Pagina Agricultura Sustentavel-----------------*/
 
+  #agro {
+    background-color: #153312;
+  }
+
   .texto-agro {
-    background-image: url(./assets/nova_agricultura_suntentavel.png);
+    margin: 0 auto;
+    background-image: url(../assets/nova_agricultura_suntentavel.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1279px;
-    max-width: 1279px;
+    background-size: 1920px;
+    max-width: 1920px;
     display: flex;
     flex-direction: column;
-    height: 420px;
+    height: 480px;
   }
 
   .texto-agro h1 {
-    width: 330px;
-    margin-left: 200px;
-    margin-top: 50px;
-
+    width: 443px;
+    margin-top: 70px;
+    height: 168px;
+    margin-left: 300px;
     font-weight: 700;
-    font-size: 32px;
-
+    font-size: 48px;
     color: #d8fec1;
   }
 
   .texto-agro p {
     width: 362px;
     height: 174px;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 20px;
 
     font-weight: 500;
@@ -179,13 +189,15 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
-    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
   }
 
   #subtitulo-da-pagina p {
     font-weight: 700;
     font-size: 32px;
     color: #d8fec1;
+    margin: 0 auto;
   }
 
   /*
@@ -196,18 +208,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./assets/nova_compostagem.png);
+    background-image: url(../assets/nova_compostagem.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1279px;
-    max-width: 1279px;
-    height: 200px;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
     margin: 0 auto;
   }
 
   #texto-compostagem h2 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 94px;
     line-height: 112px;
     text-align: center;
     color: #d8fec1;
@@ -221,18 +233,20 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./assets/nova_irrigação.png);
+    background-image: url(../assets/nova_irrigação.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1279px;
-    max-width: 1279px;
-    height: 200px;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
     margin: 0 auto;
   }
 
   #texto-irrigacao h2 {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 72px;
+    width: 1200px;
+    line-height: 112px;
     text-align: center;
     color: #d8fec1;
     margin: 0 auto;
@@ -246,18 +260,18 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-image: url(./assets/nova_cogeração.png);
+    background-image: url(../assets/nova_cogeração.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1920px;
     max-width: 1920px;
-    height: 200px;
+    height: 319px;
     margin: 0 auto;
   }
 
   #texto-cogeracao h2 {
     font-weight: 700;
-    font-size: 56px;
+    font-size: 94px;
     width: 1200px;
     line-height: 112px;
     text-align: center;
@@ -270,12 +284,13 @@
   */
 
   #segundo-subtitulo-da-pagina {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #60b579;
     height: 148px;
-    width: 100%;
+    max-width: 1920px;
   }
 
   #segundo-subtitulo-da-pagina p {
@@ -289,26 +304,26 @@
   */
 
   #parte-final-agro {
-    background-color: #153312;
+    margin: 0 auto;
     background-position: center;
     background-size: 1920px;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1279px;
+    max-width: 1920px;
     height: 801px;
   }
 
   #parte-final-agro p {
     color: #ffffff;
-    width: 510px;
+    width: 610px;
     text-align: center;
-    font-size: 24px;
+    font-size: 32px;
   }
 
   /*-----------------Pagina IA Generativa-----------------*/
   #ia {
-    background-color: #08111a;
+    background-color: #167add;
   }
 
   /*
@@ -318,12 +333,12 @@
   #texto-principal {
     color: #c1fafe;
     text-align: center;
-    background-image: url(./assets/imagem-fundo-ia-generativa.png);
+    background-image: url(../assets/imagem-fundo-ia-generativa.png);
     background-position: center;
-    background-size: 1279px;
+    background-size: 1920px;
+    max-width: 1920px;
     background-repeat: no-repeat;
     height: fit-content;
-    max-width: 1279px;
     margin: 0 auto;
   }
 
@@ -336,16 +351,16 @@
   #texto-principal h2 {
     width: 500px;
     margin: 0 auto;
-    margin-top: 150px;
+    margin-top: 200px;
     font-size: 40px;
   }
 
   #texto-principal p {
-    width: 400px;
+    width: 500px;
     margin: 0 auto;
     margin-top: 150px;
-    font-size: 24px;
-    padding-bottom: 200px;
+    font-size: 32px;
+    padding-bottom: 20vh;
   }
 
   /*
@@ -378,39 +393,40 @@
   #ia-agricultura {
     color: #08111a;
     margin: 0 auto;
-    margin-top: 230px;
-    width: 400px;
+    margin-top: 430px;
+    width: 600px;
     padding-bottom: 30vh;
   }
 
   #ia-agricultura p {
     text-align: center;
-    font-size: 24px;
+    font-size: 40px;
   }
 
-  /*-----------------Página cultivo-----------------*/
+  /*-----------------Pagina Cultivo-----------------*/
   #cultivo {
     background-color: #f5f5f5;
-    padding-bottom: 40vh;
+    height: fit-content;
   }
 
   #parte-superior-cultivo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./assets/modelos\ eficientes.png);
+    background-image: url(../assets/modelos\ eficientes.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1279px;
-    max-width: 1279px;
-    height: 380px;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 482px;
+    flex-grow: 1;
     margin: 0 auto;
   }
 
   #parte-superior-cultivo h2 {
     color: #d8fec1;
-    font-size: 32px;
-    width: 350px;
+    font-size: 40px;
+    width: 450px;
     text-align: center;
   }
   /*
@@ -424,8 +440,9 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
-    max-width: 1279px;
+    max-width: 1920px;
     margin: 0 auto;
+    font-size: 30px;
   }
 
   /*
@@ -433,32 +450,30 @@
   */
 
   .conteiner-paragrafo {
+    margin: 0 auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 50vh;
+    margin-top: 300px;
     column-gap: 67px;
-    margin-left: 20vw;
-    margin-right: 20vw;
+    padding-bottom: 20vh;
   }
 
   .paragrafo {
     display: flex;
-    row-gap: 134px;
+    column-gap: 25px;
     align-items: center;
-    flex-direction: column;
   }
 
   .paragrafo p {
-    text-align: center;
+    text-align: right;
     width: 356px;
     font-size: 24px;
   }
 
   .paragrafo div {
-    height: 26px;
-    width: 90px;
+    width: 26px;
+    height: 190px;
     background: #8cb688;
   }
 
@@ -490,6 +505,7 @@
   #campos {
     display: flex;
     flex-direction: row-reverse;
+    column-gap: 35px;
     justify-content: center;
   }
   .identificador {
@@ -512,18 +528,17 @@
   #cdd,
   #estado,
   #empresa {
-    font-size: 15px;
+    font-size: 20px;
   }
   #empresa {
-    margin-top: 30px;
+    margin-top: 39px;
   }
   #msg {
-    font-size: 15px;
-    width: 400px;
+    font-size: 20px;
   }
   #botao button {
     padding: 18px;
-    font-size: 15px;
+    font-size: 20px;
     border-radius: 25px;
     border: 1px solid gray;
   }
@@ -532,6 +547,6 @@
     cursor: pointer;
   }
   #campos input {
-    width: 300px;
+    width: 400px;
   }
 }
