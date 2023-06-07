@@ -1,0 +1,253 @@
+/*-----------------Pagina IA Generativa-----------------*/
+#ia {
+    background-color: #167add;
+}
+
+/*
+parte principal
+*/
+
+#texto-principal {
+    color: #c1fafe;
+    text-align: center;
+    background-image: url(../assets/imagem-fundo-ia-generativa.png);
+    background-position: center;
+    background-size: 1920px;
+    max-width: 1920px;
+    background-repeat: no-repeat;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#texto-principal img {
+    margin: 0 auto;
+    margin-top: 200px;
+    width: 178px;
+}
+
+#texto-principal h2 {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 200px;
+    font-size: 40px;
+}
+
+#texto-principal p {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 150px;
+    font-size: 32px;
+    padding-bottom: 20vh;
+}
+
+/*
+ ultima parte
+*/
+
+#terceira-parte {
+    background-color: #167add;
+    height: fit-content;
+}
+
+#titulo-parte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #08111a;
+}
+
+#titulo-parte h2 {
+    margin-top: 150px;
+    width: 652px;
+    font-size: 48px;
+    text-align: center;
+}
+
+#titulo-parte img {
+    margin-top: 200px;
+}
+
+#ia-agricultura {
+    color: #08111a;
+    margin: 0 auto;
+    margin-top: 430px;
+    width: 600px;
+    padding-bottom: 30vh;
+}
+
+#ia-agricultura p {
+    text-align: center;
+    font-size: 40px;
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    /*-----------------Pagina IA Generativa-----------------*/
+    #ia {
+        background-color: #08111a;
+    }
+
+    /*
+  parte principal
+  */
+
+    #texto-principal {
+        color: #c1fafe;
+        text-align: center;
+        background-image: url(../assets/imagem-fundo-ia-generativa.png);
+        background-position: center;
+        background-size: 1279px;
+        background-repeat: no-repeat;
+        height: fit-content;
+        max-width: 1279px;
+        margin: 0 auto;
+    }
+
+    #texto-principal img {
+        margin: 0 auto;
+        margin-top: 200px;
+        width: 178px;
+    }
+
+    #texto-principal h2 {
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 150px;
+        font-size: 40px;
+    }
+
+    #texto-principal p {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 150px;
+        font-size: 24px;
+        padding-bottom: 200px;
+    }
+
+    /*
+  ultima parte
+  */
+
+    #terceira-parte {
+        background-color: #167add;
+        height: fit-content;
+    }
+
+    #titulo-parte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #08111a;
+    }
+
+    #titulo-parte h2 {
+        margin-top: 150px;
+        width: 652px;
+        font-size: 48px;
+        text-align: center;
+    }
+
+    #titulo-parte img {
+        margin-top: 200px;
+    }
+
+    #ia-agricultura {
+        color: #08111a;
+        margin: 0 auto;
+        margin-top: 230px;
+        width: 400px;
+        padding-bottom: 30vh;
+    }
+
+    #ia-agricultura p {
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*-----------------Pagina IA Generativa-----------------*/
+    #ia {
+        background-color: #167add;
+    }
+
+    /*
+    parte principal
+    */
+
+    #texto-principal {
+        color: #c1fafe;
+        text-align: center;
+        background-image: url(../assets/imagem-fundo-ia-generativa.png);
+        background-position: center;
+        background-size: 768px;
+        background-repeat: no-repeat;
+        height: fit-content;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    #texto-principal img {
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 130px;
+    }
+
+    #texto-principal h2 {
+        width: 500px;
+        margin: 0 auto;
+        margin-top: 130px;
+        font-size: 32px;
+    }
+
+    #texto-principal p {
+        width: 230px;
+        margin: 0 auto;
+        margin-top: 120px;
+        padding-bottom: 130px;
+        font-size: 16px;
+    }
+
+    /*
+    ultima parte
+    */
+
+    #terceira-parte {
+        background-color: #167add;
+        height: fit-content;
+    }
+
+    #titulo-parte {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #08111a;
+    }
+
+    #titulo-parte h2 {
+        margin-top: 150px;
+        width: 452px;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #titulo-parte img {
+        margin-top: 130px;
+        width: 130px;
+    }
+
+    #ia-agricultura {
+        color: #08111a;
+        margin: 0 auto;
+        margin-top: 130px;
+        width: 400px;
+        padding-bottom: 30vh;
+    }
+
+    #ia-agricultura p {
+        margin: 0 auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

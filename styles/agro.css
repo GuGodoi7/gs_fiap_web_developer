@@ -1,0 +1,520 @@
+#agro {
+    background-color: #153312;
+}
+
+.texto-agro {
+    margin: 0 auto;
+    background-image: url(../assets/nova_agricultura_suntentavel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+}
+
+.texto-agro h1 {
+    width: 443px;
+    margin-top: 70px;
+    height: 168px;
+    margin-left: 300px;
+    font-weight: 700;
+    font-size: 48px;
+    color: #d8fec1;
+}
+
+.texto-agro p {
+    width: 362px;
+    height: 174px;
+    margin-left: 300px;
+    margin-top: 20px;
+
+    font-weight: 500;
+    font-size: 24px;
+    color: #d8fec1;
+}
+
+/*
+Subtitulo
+ */
+
+#subtitulo-da-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153312;
+    height: 148px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#subtitulo-da-pagina p {
+    font-weight: 700;
+    font-size: 32px;
+    color: #d8fec1;
+    margin: 0 auto;
+}
+
+/*
+Parte da compostagem
+*/
+
+#texto-compostagem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_compostagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
+}
+
+#texto-compostagem h2 {
+    font-weight: 700;
+    font-size: 94px;
+    line-height: 112px;
+    text-align: center;
+    color: #d8fec1;
+}
+
+/*
+Parte da irrigacao
+*/
+
+#texto-irrigacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_irrigação.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
+}
+
+#texto-irrigacao h2 {
+    font-weight: 700;
+    font-size: 72px;
+    width: 1200px;
+    line-height: 112px;
+    text-align: center;
+    color: #d8fec1;
+    margin: 0 auto;
+}
+
+/*
+  Parte da cogeracao
+  */
+
+#texto-cogeracao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_cogeração.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 319px;
+    margin: 0 auto;
+}
+
+#texto-cogeracao h2 {
+    font-weight: 700;
+    font-size: 94px;
+    width: 1200px;
+    line-height: 112px;
+    text-align: center;
+    color: #d8fec1;
+    margin: 0 auto;
+}
+
+/*
+  Segundo subtitulo
+  */
+
+#segundo-subtitulo-da-pagina {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60b579;
+    height: 148px;
+    max-width: 1920px;
+}
+
+#segundo-subtitulo-da-pagina p {
+    font-weight: 700;
+    font-size: 32px;
+    color: #153312;
+}
+
+/*
+  Parte final agro
+  */
+
+#parte-final-agro {
+    margin: 0 auto;
+    background-position: center;
+    background-size: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1920px;
+    height: 801px;
+}
+
+#parte-final-agro p {
+    color: #ffffff;
+    width: 610px;
+    text-align: center;
+    font-size: 32px;
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    /*-----------------Pagina Agricultura Sustentavel-----------------*/
+
+    .texto-agro {
+        background-image: url(../assets/nova_agricultura_suntentavel.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 1279px;
+        max-width: 1279px;
+        display: flex;
+        flex-direction: column;
+        height: 420px;
+    }
+
+    .texto-agro h1 {
+        width: 330px;
+        margin-left: 130px;
+        margin-top: 50px;
+        font-weight: 700;
+        font-size: 32px;
+        color: #d8fec1;
+    }
+
+    .texto-agro p {
+        width: 362px;
+        height: 174px;
+        margin-left: 130px;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 24px;
+        color: #d8fec1;
+    }
+
+    /*
+  Subtitulo
+  */
+
+    #subtitulo-da-pagina {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #153312;
+        height: 148px;
+        width: 100%;
+    }
+
+    #subtitulo-da-pagina p {
+        font-weight: 700;
+        font-size: 32px;
+        color: #d8fec1;
+    }
+
+    /*
+  Parte da compostagem
+  */
+
+    #texto-compostagem {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(../assets/nova_compostagem.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 1279px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #texto-compostagem h2 {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 112px;
+        text-align: center;
+        color: #d8fec1;
+    }
+
+    /*
+  Parte da irrigacao
+  */
+
+    #texto-irrigacao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(../assets/nova_irrigação.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 1279px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #texto-irrigacao h2 {
+        font-weight: 700;
+        font-size: 48px;
+        text-align: center;
+        color: #d8fec1;
+        margin: 0 auto;
+    }
+
+    /*
+  Parte da cogeracao
+  */
+
+    #texto-cogeracao {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url(../assets/nova_cogeração.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        max-width: 1920px;
+        height: 200px;
+        margin: 0 auto;
+    }
+
+    #texto-cogeracao h2 {
+        font-weight: 700;
+        font-size: 56px;
+        width: 1200px;
+        line-height: 112px;
+        text-align: center;
+        color: #d8fec1;
+        margin: 0 auto;
+    }
+
+    /*
+  Segundo subtitulo
+  */
+
+    #segundo-subtitulo-da-pagina {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #60b579;
+        height: 148px;
+        width: 100%;
+    }
+
+    #segundo-subtitulo-da-pagina p {
+        font-weight: 700;
+        font-size: 32px;
+        color: #153312;
+    }
+
+    /*
+  Parte final agro
+  */
+
+    #parte-final-agro {
+        background-color: #153312;
+        background-position: center;
+        background-size: 1920px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 1279px;
+        height: 801px;
+    }
+
+    #parte-final-agro p {
+        color: #ffffff;
+        width: 510px;
+        text-align: center;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+/*-----------------Pagina Agricultura Sustentavel-----------------*/
+
+.texto-agro {
+    background-image: url(../assets/nova_agricultura_suntentavel.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px;
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+  }
+
+  .texto-agro h1 {
+    width: 250px;
+    margin-left: 150px;
+    margin-top: 20px;
+
+    font-weight: 700;
+    font-size: 24px;
+
+    color: #d8fec1;
+  }
+
+  .texto-agro p {
+    width: 252px;
+    height: 174px;
+    margin-left: 150px;
+    margin-top: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    color: #d8fec1;
+  }
+
+  /*
+  Subtitulo
+  */
+
+  #subtitulo-da-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #153312;
+    height: 148px;
+    width: 100%;
+  }
+
+  #subtitulo-da-pagina p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #d8fec1;
+  }
+
+  /*
+  Parte da compostagem
+  */
+
+  #texto-compostagem {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_compostagem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px;
+    max-width: 768px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #texto-compostagem h2 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 112px;
+    text-align: center;
+    color: #d8fec1;
+  }
+
+  /*
+  Parte da irrigacao
+  */
+
+  #texto-irrigacao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_irrigação.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px;
+    max-width: 768px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #texto-irrigacao h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #d8fec1;
+    margin: 0 auto;
+  }
+
+  /*
+  Parte da cogeracao
+  */
+
+  #texto-cogeracao {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(../assets/nova_cogeração.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 768px;
+    max-width: 768px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  #texto-cogeracao h2 {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #d8fec1;
+    margin: 0 auto;
+  }
+
+  /*
+  Segundo subtitulo
+  */
+
+  #segundo-subtitulo-da-pagina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #60b579;
+    height: 148px;
+    width: 100%;
+  }
+
+  #segundo-subtitulo-da-pagina p {
+    font-weight: 700;
+    font-size: 24px;
+    color: #153312;
+  }
+
+  /*
+  Parte final agro
+  */
+
+  #parte-final-agro {
+    background-color: #153312;
+    background-position: center;
+    background-size: 1920px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1279px;
+    height: 501px;
+  }
+
+  #parte-final-agro p {
+    color: #ffffff;
+    width: 310px;
+    text-align: center;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+@media (min-width: 1280px) {
+
+    /*-----------------Cabeçalho e Rodapé-----------------*/
+    .nome_grupo {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 30px;
+    }
+
+    .header-site-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #60b579;
+        width: 100%;
+        height: 109px;
+        justify-content: space-around;
+    }
+
+    .links ul {
+        display: flex;
+        column-gap: 40px;
+        color: white;
+    }
+
+    .links li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        padding-bottom: 5px;
+        color: white;
+        font-size: 16px;
+    }
+
+    .links a:hover {
+        border-bottom: 3px solid white;
+        transition-duration: 0.09s;
+        border-radius: 2px;
+    }
+
+    #marcacao {
+        padding-bottom: 5px;
+        border-bottom: 3px solid white;
+        border-radius: 2px;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #60b579;
+        width: 100%;
+        height: 109px;
+        color: white;
+    }
+
+    .rodape p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+/*-----------------Page Home--------------------------*/
+#home {
+    background-color: #08111a;
+    height: fit-content;
+}
+
+#texto {
+    margin: 0 auto;
+    background-image: url(../assets/global.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1920px;
+    max-width: 1920px;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#texto h1 {
+    color: #ffffff;
+    font-size: 56px;
+}
+
+#texto p {
+    color: #ffffff;
+    font-size: 32px;
+    text-align: center;
+    width: 750px;
+    margin-top: 50px;
+}
+
+/*
+  icones home
+  */
+
+#icones-home {
+    display: flex;
+    column-gap: 97px;
+    margin-top: 200px;
+}
+
+#icones-home img {
+    width: 176px;
+}
+
+/*
+  conteudo home
+  */
+
+#conteudo_home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 400px;
+}
+
+#conteudo_home h2 {
+    margin-top: 100px;
+    width: 588px;
+    font-size: 72px;
+    text-align: center;
+}
+
+#conteudo_home p {
+    margin-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    width: 830px;
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+
+    /*-----------------Cabeçalho e Rodapé-----------------*/
+    .nome_grupo {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 30px;
+    }
+
+    .header-site-desktop {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #60b579;
+        width: 100%;
+        height: 109px;
+    }
+
+    .links ul {
+        display: flex;
+        column-gap: 20px;
+        color: white;
+    }
+
+    .links li,
+    a {
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+    }
+
+    #marcacao {
+        padding-bottom: 5px;
+        border-bottom: 3px solid white;
+        border-radius: 2px;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #60b579;
+        width: 100%;
+        height: 109px;
+        color: white;
+    }
+
+    .rodape p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    /*-----------------Cabeçalho e Rodapé-----------------*/
+    .header-site-telas-menores {
+        width: 100%;
+        height: 109px;
+        background-color: #60b579;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #menu-hamburguer {
+        width: 41px;
+        height: 109px;
+        margin: 28px 33px 29px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        row-gap: 8px;
+    }
+
+    #menu-hamburguer div {
+        width: 41px;
+        height: 5px;
+        background-color: black;
+        border-radius: 10px;
+    }
+
+    .rodape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #60b579;
+        width: 100%;
+        height: 109px;
+        color: white;
+    }
+
+    .rodape p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    /*-----------------Page Home--------------------------*/
+    #home {
+        background-color: #08111a;
+        height: fit-content;
+    }
+
+    #texto {
+        margin: 0 auto;
+        background-image: url(../assets/global.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 768px;
+        max-width: 768px;
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #texto h1 {
+        color: #ffffff;
+        font-size: 40px;
+    }
+
+    #texto p {
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        width: 450px;
+        margin-top: 50px;
+    }
+
+    /*
+    icones home
+    */
+
+    #icones-home {
+        display: flex;
+        column-gap: 97px;
+        margin-top: 200px;
+    }
+
+    #icones-home img {
+        width: 90px;
+    }
+
+    /*
+    conteudo home
+    */
+
+    #conteudo_home {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        padding-bottom: 400px;
+    }
+
+    #conteudo_home h2 {
+        margin-top: 100px;
+        width: 388px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #conteudo_home p {
+        margin-top: 100px;
+        font-size: 24px;
+        text-align: center;
+        width: 450px;
+    }
+}
