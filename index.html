@@ -1,85 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <title>MegaTech</title>
-  </head>
-  <body>
-    <header>
-      <div class="header-site-desktop">
-        <div class="nome_grupo">
-          <p>MegaTech</p>
-        </div>
-        <nav class="links">
-          <ul>
-            <li id="marcacao">
-              <a href="./index.html">Home</a>
-            </li>
-            <li>
-              <a href="./pages/agro.html">Agricultura Sustentável</a>
-            </li>
-            <li>
-              <a href="./pages/ia-gen.html"
-                >Inteligência Artificial Generativa</a
-              >
-            </li>
-            <li>
-              <a href="./pages/cultivo.html">Cultivo Eficiente</a>
-            </li>
-            <li>
-              <a href="./pages/contato.html">Contato</a>
-            </li>
-          </ul>
-        </nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/main.css" />
+  <title>MegaTech</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-site-desktop">
+      <div class="nome_grupo">
+        <p>MegaTech</p>
       </div>
+      <nav class="links">
+        <ul>
+          <li id="marcacao">
+            <a href="./index.html">Home</a>
+          </li>
+          <li>
+            <a href="./pages/agro.html">Agricultura Sustentável</a>
+          </li>
+          <li>
+            <a href="./pages/ia-gen.html">Inteligência Artificial Generativa</a>
+          </li>
+          <li>
+            <a href="./pages/cultivo.html">Cultivo Eficiente</a>
+          </li>
+          <li>
+            <a href="./pages/contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
       <div class="header-site-telas-menores">
-        <nav class="links">
-          <section id="menu-hamburguer">
-            <div></div>
-            <div></div>
-            <div></div>
-          </section>
-        </nav>
-      </div>
-    </header>
-    <main id="home">
-      <section id="texto">
-        <h1>GLOBAL SOLUTION</h1>
-        <p>
-          Promovendo ações, por meio da tecnologia, para reduzir a fome global,
-          a escassez de alimentos e promover a agricultura sustentável
-        </p>
-      </section>
-      <section id="conteudo">
-        <div id="conteudo_home">
-          <div id="icones-home">
-            <img
-              src="./assets/prato de comida.png"
-              alt="icone de um prato com um garfo no meio"
-            />
-            <img
-              src="./assets/plantinha.png"
-              alt="pequena imagem representativa sobre agricultura"
-            />
-          </div>
-          <h2>A agricultura e a Tecnologia</h2>
-          <p>
-            A tecnologia revoluciona a agricultura, otimizando processos,
-            aumentando a produtividade e garantindo a sustentabilidade. Cultivar
-            o futuro com inovação é o caminho para alimentar o mundo.
-          </p>
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="./index.html">
+              <li>Home</li>
+            </a>
+            <a href="./pages/agro.html">
+              <li>Agricultura Sustentável</li>
+            </a>
+            <a href="./pages/ia-gen.html">
+              <li>IA Generativa</li>
+            </a>
+            <a href="./pages/contato.html">
+              <li>Contato</li>
+            </a>
+          </ul>
         </div>
-      </section>
-    </main>
-    <footer class="rodape">
+      </div>
+  </header>
+  <main id="home">
+    <section id="texto">
+      <h1>GLOBAL SOLUTION</h1>
+      <p>
+        Promovendo ações, por meio da tecnologia, para reduzir a fome global,
+        a escassez de alimentos e promover a agricultura sustentável
+      </p>
+    </section>
+    <section id="conteudo">
+      <div id="conteudo_home">
+        <div id="icones-home">
+          <img src="./assets/prato de comida.png" alt="icone de um prato com um garfo no meio" />
+          <img src="./assets/plantinha.png" alt="pequena imagem representativa sobre agricultura" />
+        </div>
+        <h2>A agricultura e a Tecnologia</h2>
+        <p>
+          A tecnologia revoluciona a agricultura, otimizando processos,
+          aumentando a produtividade e garantindo a sustentabilidade. Cultivar
+          o futuro com inovação é o caminho para alimentar o mundo.
+        </p>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
       <p>Amorgan Mendes Lopes RM: 98552</p>
       <p>Gustavo Godoi da Silva RM: 99585</p>
       <p>Melissa de Oliveira Pecoraro RM: 98698</p>
       <p>Roberto Menezes dos Santos RM: 552520</p>
       <p>Vinicius Luna Rodrigues dos Santos RM: 99069</p>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
