@@ -1,120 +1,236 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/contato.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/contato.css" />
     <link rel="stylesheet" href="../styles/main.css" />
     <title>Contato</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="header-site-desktop">
-          <div class="nome_grupo">
-            <p>
-              MegaTech
-            </p>
-          </div>
-            <nav class="links">
-              <ul>
-                <li>
-                  <a href="../index.html">Home</a>
-                </li>
-                <li>
-                  <a href="./agro.html">Agricultura Sustentável</a>
-                </li>
-                <li>
-                  <a href="./ia-gen.html">Inteligência Artificial Generativa</a>
-                </li>
-                <li>
-                  <a href="./cultivo.html">Cultivo Eficiente</a>
-                </li>
-                <li id="marcacao" >
-                  <a href="./contato.html">Contato</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="header-site-telas-menores">
-            <div id="menuToggle">
-              <input type="checkbox" />
-              <span></span>
-              <span></span>
-              <span></span>
-              <ul id="menu">
-                <a href="../index.html">
-                  <li>Home</li>
-                </a>
-                <a href="../pages/agro.html">
-                  <li>Agricultura Sustentável</li>
-                </a>
-                <a href="../pages/ia-gen.html">
-                  <li>IA Generativa</li>
-                </a>
-                <a href="../pages/contato.html">
-                  <li>Contato</li>
-                </a>
-              </ul>
-            </div>
-          </div>
+      <div class="header-site-desktop">
+        <div class="nome_grupo">
+          <p>MegaTech</p>
+        </div>
+        <nav class="links">
+          <ul>
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="./agro.html">Agricultura Sustentável</a>
+            </li>
+            <li>
+              <a href="./ia-gen.html">Inteligência Artificial Generativa</a>
+            </li>
+            <li>
+              <a href="./cultivo.html">Cultivo Eficiente</a>
+            </li>
+            <li id="marcacao">
+              <a href="./contato.html">Contato</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header-site-telas-menores">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="../index.html">
+              <li>Home</li>
+            </a>
+            <a href="../pages/agro.html">
+              <li>Agricultura Sustentável</li>
+            </a>
+            <a href="../pages/ia-gen.html">
+              <li>IA Generativa</li>
+            </a>
+            <a href="../pages/contato.html">
+              <li>Contato</li>
+            </a>
+          </ul>
+        </div>
+      </div>
     </header>
     <div id="titulos">
       <h1 class="titulo-contato">Entre em contato conosco</h1>
-      <h3 class="subtitulo-contato">Complete suas informações </h3>
+      <h3 class="subtitulo-contato">Complete suas informações</h3>
     </div>
-      <form class="formulario">
-        <fieldset>
-          <div id="campos">
+    <form class="formulario">
+      <fieldset>
+        <div id="campos">
           <section class="identificador">
-            <input type="text" name="sobrenome" id="sobrenome" required placeholder=" Sobrenome*">
-            <input type="text" name="empresa" id="empresa" placeholder=" Empresa">
-            <input type="email" name="email" id="email" required placeholder=" Email*">
-            <input type="text" name="estado" id="estado" required placeholder=" Estado*">
+            <input
+              type="text"
+              name="sobrenome"
+              id="sobrenome"
+              required
+              placeholder=" Sobrenome*"
+            />
+            <input
+              type="text"
+              name="empresa"
+              id="empresa"
+              placeholder=" Empresa"
+            />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder=" Email*"
+            />
+            <input
+              type="text"
+              name="estado"
+              id="estado"
+              required
+              placeholder=" Estado*"
+            />
           </section>
           <section class="identificador">
-              <input type="text" name="nome" id="nome" required placeholder=" Nome*"> 
-              <input type="text" name="idade" id="idade" required placeholder=" Idade*">
-              <input type="text" name="profissão" id="prof" required placeholder=" Profissão*">
-              <input type="tel" name ="telefone" id="tel" pattern="^\(\d{2}\) \{4,5} \d{4}$"  
-              placeholder=" Telefone"> 
-              <input type="text" name="cdd" id="cdd" required placeholder=" Cidade*">
+            <input
+              type="text"
+              name="nome"
+              id="nome"
+              required
+              placeholder=" Nome*"
+            />
+            <input
+              type="text"
+              name="idade"
+              id="idade"
+              required
+              placeholder=" Idade*"
+            />
+            <input
+              type="text"
+              name="profissão"
+              id="prof"
+              required
+              placeholder=" Profissão*"
+            />
+            <input
+              type="tel"
+              name="telefone"
+              id="tel"
+              pattern="^\(\d{2}\) \{4,5} \d{4}$"
+              placeholder=" Telefone"
+            />
+            <input
+              type="text"
+              name="cdd"
+              id="cdd"
+              required
+              placeholder=" Cidade*"
+            />
             <div class="campo-mensagem">
-              <textarea name="msg" id="msg" cols="50" rows="4" required placeholder=" Mensagem*"></textarea>
+              <textarea
+                name="msg"
+                id="msg"
+                cols="50"
+                rows="4"
+                required
+                placeholder=" Mensagem*"
+              ></textarea>
             </div>
-            </section>
-         </div>
-         <section id="identificador-smartphone">
-          <input type="text" name="nome" id="nome" required placeholder=" Nome*"> 
-          <input type="text" name="sobrenome" id="sobrenome" required placeholder=" Sobrenome*">
-          <input type="text" name="idade" id="idade" required placeholder=" Idade*">
-          <input type="text" name="empresa" id="empresa" placeholder=" Empresa">
-          <input type="text" name="profissão" id="prof" required placeholder=" Profissão*">
-          <input type="email" name="email" id="email" required placeholder=" Email*">
-          <input type="tel" name ="telefone" id="tel" pattern="^\(\d{2}\) \{4,5} \d{4}$"  
-              placeholder=" Telefone"> 
-          <input type="text" name="estado" id="estado" required placeholder=" Estado*">
-          <input type="text" name="cdd" id="cdd" required placeholder=" Cidade*">
+          </section>
+        </div>
+        <section id="identificador-smartphone">
+          <input
+            type="text"
+            name="nome"
+            id="nome"
+            required
+            placeholder=" Nome*"
+          />
+          <input
+            type="text"
+            name="sobrenome"
+            id="sobrenome"
+            required
+            placeholder=" Sobrenome*"
+          />
+          <input
+            type="text"
+            name="idade"
+            id="idade"
+            required
+            placeholder=" Idade*"
+          />
+          <input
+            type="text"
+            name="empresa"
+            id="empresa"
+            placeholder=" Empresa"
+          />
+          <input
+            type="text"
+            name="profissão"
+            id="prof"
+            required
+            placeholder=" Profissão*"
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            required
+            placeholder=" Email*"
+          />
+          <input
+            type="tel"
+            name="telefone"
+            id="tel"
+            pattern="^\(\d{2}\) \{4,5} \d{4}$"
+            placeholder=" Telefone"
+          />
+          <input
+            type="text"
+            name="estado"
+            id="estado"
+            required
+            placeholder=" Estado*"
+          />
+          <input
+            type="text"
+            name="cdd"
+            id="cdd"
+            required
+            placeholder=" Cidade*"
+          />
           <div class="campo-mensagem">
-            <textarea name="msg" id="msg" cols="50" rows="4" required placeholder=" Mensagem*"></textarea>
+            <textarea
+              name="msg"
+              id="msg"
+              cols="50"
+              rows="4"
+              required
+              placeholder=" Mensagem*"
+            ></textarea>
           </div>
         </section>
-            <div id="botao">
-              <button type="submit">Enviar</button>
-              <button type="reset">Limpar</button>
-            </div>
-        </fieldset>  
-      </form>
-    <br>
+        <div id="botao">
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </div>
+      </fieldset>
+    </form>
+    <br />
     <footer class="rodape">
-        <p>Amorgan Mendes Lopes RM: 98552</p>
-        <p>Gustavo Godoi da Silva RM: 99585</p>
-        <p>Melissa de Oliveira Pecoraro RM: 98698</p>
-        <p>Roberto Menezes dos Santos RM: 552520</p>
-        <p>Vinicius Luna Rodrigues dos Santos RM: 99069</p>
+      <p>
+        Amorgan Mendes Lopes RM: <br />
+        98552
+      </p>
+      <p>Gustavo Godoi da Silva RM: 99585</p>
+      <p>Melissa de Oliveira Pecoraro RM: 98698</p>
+      <p>Roberto Menezes dos Santos RM: 552520</p>
+      <p>Vinicius Luna Rodrigues dos Santos RM: 99069</p>
     </footer>
-    
-</body>
+  </body>
 </html>
-
-
