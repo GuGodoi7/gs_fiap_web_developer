@@ -144,6 +144,10 @@
 
   /*-----------------Pagina Agricultura Sustentavel-----------------*/
 
+  #agro {
+    background-color: #153312;
+  }
+
   .texto-agro {
     margin: 0 auto;
     background-image: url(./assets/nova_agricultura_suntentavel.png);
@@ -189,7 +193,7 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
-    width: 100%;
+    width: 1920%;
   }
 
   #subtitulo-da-pagina p {
@@ -287,7 +291,7 @@
     align-items: center;
     background-color: #60b579;
     height: 148px;
-    width: 100%;
+    width: 1920px;
   }
 
   #segundo-subtitulo-da-pagina p {
@@ -302,7 +306,6 @@
 
   #parte-final-agro {
     margin: 0 auto;
-    background-color: #153312;
     background-position: center;
     background-size: 1920px;
     display: flex;
@@ -334,9 +337,9 @@
     background-image: url(./assets/imagem-fundo-ia-generativa.png);
     background-position: center;
     background-size: 1920px;
+    max-width: 1920px;
     background-repeat: no-repeat;
     height: fit-content;
-    max-width: 1920px;
     margin: 0 auto;
   }
 
@@ -438,7 +441,7 @@
     align-items: center;
     background-color: #153312;
     height: 148px;
-    max-width: 1920px;
+    max-width: 100%;
     margin: 0 auto;
     font-size: 30px;
   }
@@ -476,67 +479,76 @@
   }
 
   /*-----------------Pagina Contato-----------------*/
-  #titulos{
+
+  #titulos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px ;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
-  #titulos h3{
-    color:#60b579;
+  #titulos h3 {
+    color: #60b579;
   }
-  body{
+  body {
     background-color: #f5f5f5;
   }
-  fieldset{
+  fieldset {
     border: 0;
     display: flex;
     flex-direction: column;
   }
-  #campos{
+  #campos {
     display: flex;
     flex-direction: row-reverse;
-    column-gap: 35px ;
+    column-gap: 35px;
     justify-content: center;
   }
-  .identificador{
+  .identificador {
     display: flex;
     flex-direction: column;
     row-gap: 10px;
   }
-  #botao{
-    display:flex;
+  #botao {
+    display: flex;
     justify-content: center;
     margin-top: 58px;
     column-gap: 20px;
   }
-  #sobrenome,#nome,#idade,#prof,#tel,#email,#cdd,#estado,#empresa{
-    font-size: 20px ;
+  #sobrenome,
+  #nome,
+  #idade,
+  #prof,
+  #tel,
+  #email,
+  #cdd,
+  #estado,
+  #empresa {
+    font-size: 20px;
   }
-  #empresa{
+  #empresa {
     margin-top: 39px;
   }
-  #msg{
-    font-size:20px ;
+  #msg {
+    font-size: 20px;
   }
-  #botao button{
+  #botao button {
     padding: 18px;
     font-size: 20px;
     border-radius: 25px;
-    border:1px solid gray;
+    border: 1px solid gray;
   }
-  #botao button:hover{
+  #botao button:hover {
     background-color: darkgray;
     cursor: pointer;
   }
-  #campos input{
-    width:400px;
+  #campos input {
+    width: 400px;
   }
+}
 
-
-  
+@media (min-width: 769px) and (max-width: 1279px) {
   /*-----------------Cabeçalho e Rodapé-----------------*/
   .nome_grupo {
     font-size: 24px;
