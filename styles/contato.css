@@ -84,11 +84,6 @@
     #campos input {
         width: 400px;
     }
-
-    .rodape {
-        position: absolute;
-        bottom: 0;
-    }
 }
 
 @media (min-width: 769px) and (max-width: 1279px) {
